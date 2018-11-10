@@ -1,0 +1,118 @@
+
+/* #E10A05 Red
+#0B2B40 Blue */
+
+body{
+    background-color: aliceblue;
+    padding: 2px;
+    font-family: 'Lato';
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav ul {
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.nav-link:active{
+    border-left: black solid 2px;
+}
+
+.slide-images {
+    position: absolute;
+    top:25%;
+    
+}
+
+#main-heading .col-6{
+    clip-path: polygon(0% 0%, 75% 0%, 92% 100%, 0% 100%);
+    background: #0B2B40;
+}
+
+.topdiv {
+    clip-path: polygon(0% 0%, 83% 0%, 100% 100%, 0% 100%);
+}
+
+.about-us{
+    text-align: justify;
+}
+
+#main-heading .col-7{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+}
+
+.meinburg{
+    background-image: linear-gradient(to right,rgba(11, 43, 64, 0.801),rgba(11, 43, 64, 0.801)), url('../img/ntp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.transition {
+    background-image:linear-gradient(to right,rgba(225, 9, 5, 0.801),rgba(225, 9, 5, 0.801)), url('../img/transition-networks.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+}
+
+#Clients .col-3 {
+    max-width: 200px;
+}
+
+#Clients img{
+    width: 200px;
+}
+
+#Clients .row{
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+}
+
+#Clients p{
+    text-align: center;
+}
+
+.irm{
+    padding:10px;
+	background-image: url('../img/irslide1.jpg'); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+
+.sumito{
+	background-image: url('../img/rubber.jpg'); 
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.layer1 {
+    background-color: rgba(250, 245, 245, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layer {
+    background-color: rgba(22, 21, 21, 0.692);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#market p{
+    font-size: 35px;
+}
