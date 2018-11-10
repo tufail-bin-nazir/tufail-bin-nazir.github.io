@@ -105,7 +105,7 @@ h1 {
 }
 
 .layer {
-    background-color: rgba(22, 21, 21, 0.692);
+    background-color: rgba(22, 21, 21, 0.377);
     position: absolute;
     top: 0;
     left: 0;
@@ -115,4 +115,14 @@ h1 {
 
 #market p{
     font-size: 35px;
+}
+
+#brand-partners a{
+ color: white;
+}
+
+#otherPartners p {
+    font-size: 20px;
+    text-align: center;
+
 }
