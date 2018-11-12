@@ -44,7 +44,7 @@ h1 {
 }
 
 .meinburg{
-    background-image: linear-gradient(to right,rgba(11, 43, 64, 0.801),rgba(11, 43, 64, 0.801)), url('../img/ntp.jpg');
+    background-image: linear-gradient(to right,rgba(11, 43, 64, 0.603),rgba(11, 43, 64, 0.801)), url('../img/ntp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .transition {
-    background-image:linear-gradient(to right,rgba(225, 9, 5, 0.801),rgba(225, 9, 5, 0.801)), url('../img/transition-networks.jpg');
+    background-image:linear-gradient(to right,rgba(225, 9, 5, 0.603),rgba(225, 9, 5, 0.801)), url('../img/transition-networks.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

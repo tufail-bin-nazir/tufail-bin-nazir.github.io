@@ -81,6 +81,9 @@
                 </div>
 
                 <div style="height: 100%;" class="carousel-item">
+                   <img src="img/clock3.png" class="slide-images" style="margin-top: -85px;
+                   left: -8%;
+                   height: 100%;">
                     <img src="img/slide4.png" class="slide-images" style="margin-top: -100px;
                     left: -8%;
                     height: 100%;">
@@ -137,7 +140,7 @@
 
   <section id="brand-partners">
     <h1 class="text-center" style="margin-bottom: 60px;"><span style="color: #0B2B40;">Brand</span> <span style="color: red;">Partners</span></h1>
-    <div class="row" style="height:500px;">
+    <div class="row" style="height:600px;">
       <div class="col-6 meinburg" style="color:white;">
         <h2 style="padding-left: 200px;"><img style="height: 100px;" src="img/meinberg-logo.png"></h2>
         <p style=" width: 630px; text-align: center;">Your Partner for Professional Time and Frequency
@@ -151,19 +154,52 @@
           <li style="width: 280px;
           margin-left: auto;
           margin-right: auto; list-style: none;">
+           <ul>
+              <a target="_blank" href="https://www.meinbergglobal.com/english/products/modular-sync-system.htm">
+                IMS - Modular Synchronization</a>
+            </ul>
+            
             <ul>
               <a target="_blank" href="https://www.meinbergglobal.com/english/products/ntp-time-server.htm">NTP Time Server</a>
             </ul>
             <ul>
+              <a target="_blank" href="https://www.meinbergglobal.com/english/products/pc-clocks.htm">PC Clocks (PCI / USB)</a>
+          </ul>
+            <ul>
                <a target="_blank" href="https://www.meinbergglobal.com/english/products/gps-systems.htm"> GNSS Systems</a> 
             </ul>
+
             <ul>
-                <a target="_blank" href="https://www.meinbergglobal.com/english/products/pc-clocks.htm">PC Clocks (PCI / USB)</a>
-            </ul>
+              <a target="_blank" href="https://www.meinbergglobal.com/english/products/dcf-systems.htm">
+                DCF77 / WWVB / MSF Systems</a>
+          </ul>
+
+          <ul>
+            <a target="_blank" href="https://www.meinbergglobal.com/english/products/irig-time-code.htm">
+              IRIG Time Code Systems</a>
+        </ul>
+            
             <ul>
                 <a target="_blank" href="https://www.meinbergglobal.com/english/products/antennas-signal-dist.htm">
                     Antennas / Distributors</a>
             </ul>
+            
+
+          
+        <ul>
+          <a target="_blank" href="https://www.meinbergglobal.com/english/products/dcf77-pc-clocks.htm">
+            PCI / USB Clocks</a>
+      </ul>
+      <ul>
+        <a target="_blank" href="https://www.meinbergglobal.com/english/products/dcf77-built-in-modules.htm">
+          LF Modules</a>
+    </ul>
+
+      
+
+
+       
+
             <ul>
                 <a target="_blank" href="https://www.meinbergglobal.com/english/products/displays-analog-clocks.htm">
                     Displays and Wall Clocks</a>
@@ -210,6 +246,12 @@
             <ul>
                 <a target="_blank" href="https://www.transition.com/lines/network-management-software/">Network Management Software</a>
             </ul>
+
+            <ul>
+              <a target="_blank" href="https://www.transition.com/lines/accessories/">Accessories</a>
+          </ul>
+
+            
           </li>
         
       </div>
@@ -323,8 +365,8 @@
   <section id="otherPartners" class="mb-5" style="height: 500px;margin-top: 170px;">
 
 
-    <div class="row nounderline" style="height: 100%;">
-      <div class="col-6 text-center irm">
+    <div class="row nounderline" style="height: 105%;">
+      <div class="col-6 text-center irm" >
         <div class="layer1">
           <img src="img/irm_logo.png">
 
@@ -351,7 +393,7 @@
           </p>
         </div>
       </div>
-      <div class="col-6 text-center sumito">
+      <div class="col-6 text-center sumito" >
 
         <div class="layer1">
           <img src="img/sumitomo_logo.png" style="width: 400px; height: 80px;">
@@ -386,7 +428,7 @@
   </section>
 
   <section id="market" class="mb-5 container">
-    <h1 class="text-center"> <span style="color: red;">Our</span> <span style="color: #0B2B40;">Market<span></span></h1>
+    <h1 class="text-center" style="margin-top: 90px;"> <span style="color: red;">Our</span> <span style="color: #0B2B40;">Market<span></span></h1>
 
     <div class="row" style="height: 355px;">
       <div class="col-4" style=" border: white solid 25px;background-image: url(img/enterprise.jpg); background-position: center; background-repeat: no-repeat;">
@@ -478,6 +520,13 @@
               <h6 style="margin-bottom: -8%;">Iraq Gate Company <br/> Basrah - Iraq</h6> <br />
               <i class="fa fa-envelope"></i> igciraq.com
             </div>
+            <div style=" margin-left: -300px;">
+
+             <a target="_blank" href="https://www.facebook.com/Almamaastrading/"><i class="fab fa-facebook fa-3x mx-2"></i></a> 
+             <a target="_blank" href="https://twitter.com/AlMamaasTrading"><i class="fab fa-twitter-square fa-3x mx-2"></i></a> 
+              <a target="_blank" href="https://www.linkedin.com/company/almamaastrading/"><i class="fab fa-linkedin fa-3x mx-2"></i></a>
+            </div>
+           
           </div>
         </div>
       </div>
@@ -511,8 +560,12 @@
         </div>
 
       </div>
+      
 
     </div>
+    
+   
+   
 
 
   </section>
@@ -579,6 +632,9 @@
       duration: 3000,
       opacity: 0.1
     });
+
+    ScrollReveal().reveal('.irm', { reset: true,duration: 3000, scale: 0.5 });
+    ScrollReveal().reveal('.sumito', { reset: true, duration: 3000,scale: 0.5 });
 
   </script>
 
