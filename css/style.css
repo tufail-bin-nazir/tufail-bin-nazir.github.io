@@ -31,6 +31,20 @@ h1 {
     background: #0B2B40;
 }
 
+#meinberg .col-6{
+    clip-path: polygon(0% 0%, 75% 0%, 92% 100%, 0% 100%);
+    background: #0B2B40;
+}
+
+#transition .col-6{
+    clip-path: polygon(0% 0%, 75% 0%, 92% 100%, 0% 100%);
+    background: #0B2B40;
+}
+
+
+
+
+
 .topdiv {
     clip-path: polygon(0% 0%, 83% 0%, 100% 100%, 0% 100%);
 }
@@ -40,6 +54,14 @@ h1 {
 }
 
 #main-heading .col-7{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+}
+
+#meinberg .col-7{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+}
+
+#transition .col-7{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
 }
 
@@ -125,4 +147,14 @@ h1 {
     font-size: 20px;
     text-align: center;
 
+}
+
+#meinberg ul{
+    padding-left: 8px;
+   
+}
+
+#transition ul{
+    padding-left:8px;
+   
 }
