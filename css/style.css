@@ -17,6 +17,10 @@ h1 {
     margin-bottom: 0;
 }
 
+.navbar a{
+    color: white;
+}
+
 .nav-link:active{
     border-left: black solid 2px;
 }

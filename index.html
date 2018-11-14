@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top  navbar-expand-sm navbar-dark" style="background-color:#0B2B40">
+  <nav class="navbar fixed-top  navbar-expand-sm" style="background-color:#0B2B40;">
     <div class="container">
       <a class="navbar-brand">
         <img src="img/main-logo.png" />
@@ -65,6 +65,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 
               </ol>
               <div class="carousel-inner" style="height:100%;">
@@ -95,8 +96,13 @@
                 </div>
 
                 <div style="height: 100%;" class="carousel-item ">
-                  <img src="img/slide6.png" class="slide-images" style=" top:0; width:70%;height: 100%;">
+                  <img src="img/slide6.png" class="slide-images" style=" top:50%; width:70%;height: 30%;">
                 </div>
+
+                <div style="height: 100%;" class="carousel-item ">
+                  <img src="img/slide7.png" class="slide-images" style=" top:50%; width:70%;height: 30%;">
+                </div>
+
               </div>
 
             </div>
@@ -158,9 +164,8 @@
         <div class="col-6" style=" background: none;clip-path: none;padding-left: 0px;">
           <h1 class="text-center"> <span style="color: red;"> <img style="width:150px;" src="img/meinberg-logo.png"></span></h1>
           <p class="about-us" style="    width: 735px;">
-            <h4>Details</h4>
-            <p style="    padding-left: 5px;">
-            <b>Your Partner</b> for Professional Time and Frequency
+           <p style="    padding-left: 5px;">
+            <span style="font-size: 25px;">Your Partner</span> for Professional Time and Frequency
             Synchronization Solutions
             PTP/IEEE 1588 Systems, NTP Servers,
             GPS/GLONASS/Galileo/BeiDou References and IRIG Timecode
@@ -214,8 +219,8 @@
           </p>
           <div style="text-align: end;">
             
-              <a target="_blank" href="http://meinberg-me.com"><i class="fas fa-link"></i>http://meinberg-me.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a target="_blank" href="https://www.meinbergglobal.com"><i class="fas fa-link"></i>https://www.meinbergglobal.com</a>
+              <a target="_blank" href="http://meinberg-me.com"><i class="fas fa-link"></i>www.meinberg-me.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a target="_blank" href="https://www.meinbergglobal.com"><i class="fas fa-link"></i>www.meinbergglobal.com</a>
 
           </div>
 
@@ -251,9 +256,9 @@
           <h1 class="text-center"> <span style="color: red;"> <img style="border-radius: 25px;
             width: 150px;" src="img/transition-logo.png"></span></h1>
           <p class="about-us" style="    width: 735px;">
-            <h4> Details</h4>
+            
             <p style="padding-left: 5px;">
-            <b>Transition Networks</b> bring to market technologies
+              <span style="font-size: 25px;">Transition Networks</span> bring to market technologies
           that modernize your existing network
           infrastructure with new solutions for fiber optics,
           Ethernet, physical layer, Power-over-Ethernet
@@ -291,7 +296,7 @@
           </p>
           <div style="text-align: end;">
             
-              <a target="_blank" href="transition.com"><i class="fas fa-link"></i>transition.com</a>
+              <a target="_blank" href="transition.com"><i class="fas fa-link"></i>www.transition.com</a>
 
           </div>
 
@@ -552,7 +557,10 @@
             establishments.
 
             <h3 style="margin-top: 35px;"> IRM Product List.</h3>
-            <ol style="list-style-type: none;">
+            <ol style=" width: 270px;
+            list-style-type: none;
+            text-align: initial;
+            margin: auto;">
               <li>Marine Fenders</li>
               <li>Boat Fenders</li>
               <li>Dock &amp; Harbour Accessories</li>
@@ -581,7 +589,10 @@
             Hybrid Rubber Products HQS.
 
             <h3>Sumitomo Product list</h3>
-            <ol style="list-style-type: none;">
+            <ol style=" width: 270px;
+            list-style-type: none;
+            text-align: initial;
+            margin: auto;">
               <li>Hyper Omega Fenders</li>
               <li>Pi- Type Fenders</li>
               <li>Upi – type Fenders</li>
@@ -794,7 +805,7 @@
 
     ScrollReveal().reveal('.meinburg', slideRight);
     ScrollReveal().reveal('.transition', slideLeft);
-    ScrollReveal().reveal('.col-4', {
+    ScrollReveal().reveal('.col-lg-4', {
       reset: true,
       rotate: {
         x: 20,
