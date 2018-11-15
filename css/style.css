@@ -109,16 +109,20 @@ h1 {
 	background-image: url('../img/irslide1.jpg'); 
 	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+   
+   border:  #578FCC solid 5px;
+   border-right: none;
 
 
 }
 
 .sumito{
 	background-image: url('../img/rubber.jpg'); 
-	
+    border:  #578FCC solid 5px;
 	background-position: center;
-	background-size: cover;
+    background-size: cover;
+    border-left: none;
 	background-repeat: no-repeat;
 }
 
