@@ -113,6 +113,7 @@ h1 {
    
    border:  #578FCC solid 5px;
    border-right: none;
+  clip-path:  polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
 
 
 }
@@ -123,7 +124,8 @@ h1 {
 	background-position: center;
     background-size: cover;
     border-left: none;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+   clip-path:  polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
 }
 
 .layer1 {
