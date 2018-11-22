@@ -172,3 +172,82 @@ h1 {
    
 }
 
+@media (min-width: 576px) { 
+   #otherPartners {
+       margin-top: 700px !important;
+      height: 700px !important;
+   }
+ }
+
+ @media (min-width: 768px) { 
+    #otherPartners {
+        margin-top: 700px !important;
+        height: 700px !important;
+    }
+  }
+
+  @media (min-width: 992px) { 
+    #otherPartners {
+        margin-top: 80px !important;
+        height: 500px !important;
+    }
+   }
+
+
+@media (min-width: 1200px) { 
+
+    #otherPartners {
+        margin-top: 80px !important;
+        height: 500px !important;
+    }
+
+}
+
+  @media(min-width: 768px){
+      #market .market-item{
+          height: 400px;
+      }
+  }
+
+  @media (min-width: 576px) { 
+    #market .market-item {
+        height: 400px;
+    }
+  }
+
+  @media (min-width: 992px) { 
+    #market .market-item{
+      height: 300px;
+    }
+  }
+
+  @media (min-width: 1200px) { 
+    #market .market-item{
+        height: 300px;
+    }
+  }
+
+  @media(min-width: 768px){
+     #contact{
+         margin-top: 900px;
+     }
+  }
+
+  @media (min-width: 576px) { 
+     #contact{
+        margin-top: 900px;
+     }
+  }
+
+  @media (min-width: 992px) { 
+    #contact{
+        margin-top: 0px;
+     }
+  }
+
+  @media (min-width: 1200px) {
+    #contact{
+        margin-top: 0px;
+     }
+   }
+
