@@ -333,6 +333,10 @@ h1 {
    }
 
    @media(max-width:576px){
+    
+    #market p {
+        font-size: 21px;
+    }
 
     #otherPartners p{
         font-size: 14px;
