@@ -115,7 +115,7 @@
                   <a data-scroll class="nav-link" href="#meinberg">Brand Partners</a>
                 </ul>
                 <ul class="nav-item">
-                  <a data-scroll class="nav-link" href="#market">Markets</a>
+                  <a data-scroll class="nav-link" href="#marketclass">Markets</a>
                 </ul>
                 <ul class="nav-item">
                   <a data-scroll class="nav-link" href="#contact">Contact Us</a>
@@ -251,7 +251,7 @@
 
 
   <section id="meinberg" style="height: 750px;">
-    <h1 class="text-center" style="margin-bottom: 60px;"><span style="color: #0B2B40;"></span>Our  <span style="color: red;">
+    <h1 class="text-center " style="margin-bottom: 60px;"><span style="color: #0B2B40;"></span>Our  <span style="color: red;">
       Brand Partners
       </span></h1>
 
@@ -588,13 +588,13 @@
             list-style-type: none;
             text-align: initial;
             ">
-              <li>Hyper Omega Fenders</li>
+              <li >Hyper Omega Fenders</li>
               <li>Pi- Type Fenders</li>
               <li>Upi – type Fenders</li>
               <li>V-Type Fenders</li>
               <li>Lambda- Type Fenders</li>
-              <li>Beta-Type Fenders</li>
-              <li>Other- Type Fenders &nbsp;&nbsp; <a style="color:red;" href="http://www.civil-works-sri.com/en/marine/#rubberfender" target="_blank">more...</a></li>
+              <li >Beta-Type Fenders</li>
+              <li id="marketclass">Other- Type Fenders &nbsp;&nbsp; <a style="color:red;" href="http://www.civil-works-sri.com/en/marine/#rubberfender" target="_blank">more...</a></li>
   
             </ol>
         </div>
@@ -686,8 +686,8 @@
             <div style="    text-align: initial;">
               <i class="fas fa-phone-square"></i> +9714 2949970<br />
               <i class="fas fa-fax"></i> +97142949971<br />
-             <a  href="mailto:info@almamaas.com"> <i  class="fas fa-envelope"></i> info@almamaas.com<br/></a> 
-             <a  href="mailto:info@almamaas.com"> <i class="fas fa-envelope"></i> sales@meinberg-me.com</a> 
+             <a style="color:white;"  href="mailto:info@almamaas.com"> <i  class="fas fa-envelope"></i> info@almamaas.com<br/></a> 
+             <a  style="color:white;"  href="mailto:info@almamaas.com"> <i class="fas fa-envelope"></i> sales@meinberg-me.com</a> 
             </div>
 
           </div>
@@ -794,6 +794,12 @@
       opacity: null,
       reset: true
     };
+
+    $('.navbar-collapse ul li a').click(function() {
+      
+     /* always close responsive nav after click */
+     $('.navbar-toggler:visible').click();
+});
 
     ScrollReveal().reveal('.meinburg', slideRight);
     ScrollReveal().reveal('.transition', slideLeft);
