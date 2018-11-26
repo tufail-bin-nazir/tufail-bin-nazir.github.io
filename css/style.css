@@ -185,7 +185,7 @@ h1 {
 }
 
 .headertopsocialleft ul li {
-    margin: 0px 10px 0px 0px;
+    margin: -10px 10px 0px 0px;
     padding: 0px;
     list-style: none;
     float: left;
@@ -251,7 +251,7 @@ h1 {
     font-family: 'Calligraffitti', cursive;
 }
 
-..fa {
+.fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -286,7 +286,7 @@ h1 {
   @media (max-width: 502px) { 
     #otherPartners {
         margin-top: 880px !important;
-       height: 1300px !important;
+       height: 1000px !important;
     }
   }
 
@@ -333,6 +333,36 @@ h1 {
    }
 
    @media(max-width:576px){
+
+    #otherPartners p{
+        font-size: 14px;
+    }
+
+       .irm-img{
+           width: 280px;
+       }
+
+       .sumitomo-img{
+           width: 200px !important;
+       }
+       .logo-main{
+           width: 260px;
+       }
+
+       .social{
+           width: 200px;
+       }
+
+       .numbers {
+        width: 250px;
+    }
+
+       .numbers li:nth-child(2){
+           display: none;
+       }
+
+      
+   
       .about-us{
           padding-left: 30px;
       }
