@@ -12,6 +12,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    word-spacing: 0px;
+}
+
 .navbar-nav ul {
     padding-top: 15px;
     margin-bottom: 0;
@@ -302,7 +306,10 @@ h1 {
   }
 
   @media (max-width: 502px) { 
-
+   
+    p{
+        word-spacing: -1px;
+    }
 
     #otherPartners {
         margin-top: 880px !important;
@@ -328,6 +335,10 @@ h1 {
   }
 
   @media (max-width: 576px) { 
+
+    body{
+        overflow-x: hidden;
+    }
     #transition{
         margin-top: 150px;
       }
