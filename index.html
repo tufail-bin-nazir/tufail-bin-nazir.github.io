@@ -96,7 +96,7 @@
     </div>
   </nav> -->
 
-
+  
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color:#0B2B40;margin-top: 40px;">
       <a class="navbar-brand" href="#"> <img class="logo-main" src="img/main-logo.png" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,13 +106,13 @@
         <ul class="navbar-nav" style="margin-left:auto;">
             <li class="navbar-nav" style="margin-left:auto;">
                 <ul class="nav-item">
-                  <a data-scroll class="nav-link" href="#main-heading">Home</a>
+                  <a data-scroll class="nav-link scrolltop" href="#">Home</a>
                 </ul>
                 <ul class="nav-item">
-                  <a data-scroll class="nav-link" href="#main-heading">About Us</a>
+                  <a data-scroll class="nav-link scrolltop" href="#">About Us</a>
                 </ul>
                 <ul class="nav-item">
-                  <a data-scroll class="nav-link" href="#meinberg">Brand Partners</a>
+                  <a data-scroll class="nav-link" href="#meinberg-top">Brand Partners</a>
                 </ul>
                 <ul class="nav-item">
                   <a data-scroll class="nav-link" href="#marketclass">Markets</a>
@@ -124,7 +124,7 @@
         </ul>
       </div>
     </nav>
-
+    
   <section id="main-heading" style="height:500px;    margin-top: 150px;">
     <div>
       <div class="row" style="margin-top: 30px;">
@@ -215,7 +215,7 @@
         </div>
         <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12 col-xs-12" style=" background: none;clip-path: none;padding-left: 0px;">
           <h1 class="text-center"> <span style="color: red;">About </span> <span style="color: #0B2B40;">Us</span></h1>
-          <p class="about-us  pl-sm-5 pl-md-5 pl-xs-5" style=" width: 95%;">Al Mamaas Group, Importer and Exporter / Distributor from
+          <p class="about-us  pl-sm-5 pl-md-5 pl-xs-5" style=" width: 95%; word-spacing: -1px;">Al Mamaas Group, Importer and Exporter / Distributor from
             Global manufacturer for Power Generation &amp; Transmission,
             Construction Equipment’s, Telecommunications Solutions,
             Engineering Products,complete Oil &amp; Gas products, to meet
@@ -238,7 +238,7 @@
         </div>
 
       </div>
-      <div class="row" style="    height: 50px;">
+      <div id="meinberg-top" class="row" style="    height: 50px;">
         <div class="col-5" style=" background: none;clip-path: none;">
 
         </div>
@@ -561,7 +561,8 @@
               <li> Offshore Products</li>
               <li>Floating Fenders</li>
               <li>Buoys</li>
-              <li>Quick Release Hooks &nbsp;&nbsp;<a style="color:red;" href="http://www.irmome.com" target="_blank">more...</a></li>
+              <li>Quick Release Hooks </li>
+              <li>&nbsp;&nbsp;<a style="color:red;" href="http://www.irmome.com" target="_blank">more...</a></li>
               
             </ol>
           </p>
@@ -594,7 +595,8 @@
               <li>V-Type Fenders</li>
               <li>Lambda- Type Fenders</li>
               <li >Beta-Type Fenders</li>
-              <li id="marketclass">Other- Type Fenders &nbsp;&nbsp; <a style="color:red;" href="http://www.civil-works-sri.com/en/marine/#rubberfender" target="_blank">more...</a></li>
+              <li id="marketclass">Other- Type Fenders </li>
+              <li><a style="color:red;" href="http://www.civil-works-sri.com/en/marine/#rubberfender" target="_blank">more...</a></li>
   
             </ol>
         </div>
@@ -799,6 +801,12 @@
       
      /* always close responsive nav after click */
      $('.navbar-toggler:visible').click();
+});
+
+
+$('.scrolltop').click(function(){
+ 
+  $('html, body').animate({ scrollTop: 0 }, 'slow');
 });
 
     ScrollReveal().reveal('.meinburg', slideRight);

@@ -262,11 +262,27 @@ h1 {
 
 
 
+@media (max-width: 1600px) { 
+
+   
+
+    #otherPartners ol{
+        width:0px;
+        padding-left: 40px !important;
+    }
+
+}
+
 @media (max-width: 1200px) { 
 
     #otherPartners {
         margin-top: 100px !important;
         height: 700px !important;
+    }
+
+    #otherPartners ol{
+        width:0px;
+        padding-left: 20px !important;
     }
 
 }
@@ -286,10 +302,17 @@ h1 {
   }
 
   @media (max-width: 502px) { 
+
+
     #otherPartners {
         margin-top: 880px !important;
        height: 1000px !important;
     }
+  }
+
+  #otherPartners ol{
+      width:0px;
+      padding-left: 10px;
   }
 
 
@@ -345,7 +368,7 @@ h1 {
     }
 
        .irm-img{
-           width: 280px;
+           width: 180px;
        }
 
        .sumitomo-img{
