@@ -369,6 +369,10 @@ p{
    }
 
    @media(max-width:576px){
+
+    .navbar-nav{
+     margin-left:0 !important;
+    }
     
     #market p {
         font-size: 21px;
